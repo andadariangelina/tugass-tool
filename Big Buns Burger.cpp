@@ -26,7 +26,7 @@ void pilihan_menu(){
     cout<<"|| 3. Wagyu Beef Burger          Rp 75.000  || 9.  CocaCola                 Rp 15.000 || \n";
     cout<<"|| 4. Sirloin Beef Burger        Rp 100.000 || 10. Pepsi                    Rp 15.000 || \n";
     cout<<"|| 5. Spaghetti Bolognese        Rp 52.500  ||[11] SELESAI                            || \n";
-    cout<<"|| 6. French Fries               Rp 30.000  ||                                        || \n";
+    cout<<"|| 6. French Fries               Rp 20.000  ||                                        || \n";
 }
 
 int main(){
@@ -84,7 +84,7 @@ int main(){
 				break;
 			case 6 :
 				nama_menu = "French Fries";
-				harga = 30000;
+				harga = 20000;
 				cout<<"Jumlah Pesanan : ";
 				cin>>jumlah;
 				total+=hitungHarga(harga, jumlah);
